@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29DDB77C13DF5CB300FDDF15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DDB77B13DF5CB300FDDF15 /* Cocoa.framework */; };
+		29DDB77E13DF5CB300FDDF15 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DDB77D13DF5CB300FDDF15 /* MacRuby.framework */; };
+		29DDB78513DF5CB300FDDF15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB78313DF5CB300FDDF15 /* InfoPlist.strings */; };
+		29DDB78813DF5CB300FDDF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDB78713DF5CB300FDDF15 /* main.m */; };
+		29DDB78C13DF5CB300FDDF15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB78A13DF5CB300FDDF15 /* MainMenu.xib */; };
+		29DDB78F13DF5CB300FDDF15 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB78E13DF5CB300FDDF15 /* rb_main.rb */; };
+		29DDB79113DF5CB300FDDF15 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB79013DF5CB300FDDF15 /* AppDelegate.rb */; };
+		29DDB79413DF5CB300FDDF15 /* ProductInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29DDB79213DF5CB300FDDF15 /* ProductInventory.xcdatamodeld */; };
+		29DDB79E13DF5DF500FDDF15 /* Product.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB79D13DF5DF500FDDF15 /* Product.rb */; };
+		29DDB7A013DF5E2000FDDF15 /* InventoryController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29DDB79F13DF5E2000FDDF15 /* InventoryController.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29DDB77713DF5CB300FDDF15 /* ProductInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DDB77B13DF5CB300FDDF15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29DDB77D13DF5CB300FDDF15 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		29DDB78213DF5CB300FDDF15 /* ProductInventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductInventory-Info.plist"; sourceTree = "<group>"; };
+		29DDB78413DF5CB300FDDF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29DDB78613DF5CB300FDDF15 /* ProductInventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductInventory-Prefix.pch"; sourceTree = "<group>"; };
+		29DDB78713DF5CB300FDDF15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DDB78B13DF5CB300FDDF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29DDB78E13DF5CB300FDDF15 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		29DDB79013DF5CB300FDDF15 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		29DDB79313DF5CB300FDDF15 /* ProductInventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductInventory.xcdatamodel; sourceTree = "<group>"; };
+		29DDB79D13DF5DF500FDDF15 /* Product.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Product.rb; sourceTree = "<group>"; };
+		29DDB79F13DF5E2000FDDF15 /* InventoryController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = InventoryController.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29DDB77413DF5CB300FDDF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DDB77C13DF5CB300FDDF15 /* Cocoa.framework in Frameworks */,
+				29DDB77E13DF5CB300FDDF15 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29DDB76C13DF5CB300FDDF15 = {
+			isa = PBXGroup;
+			children = (
+				29DDB78013DF5CB300FDDF15 /* ProductInventory */,
+				29DDB77A13DF5CB300FDDF15 /* Frameworks */,
+				29DDB77813DF5CB300FDDF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29DDB77813DF5CB300FDDF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB77713DF5CB300FDDF15 /* ProductInventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DDB77A13DF5CB300FDDF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB77B13DF5CB300FDDF15 /* Cocoa.framework */,
+				29DDB77D13DF5CB300FDDF15 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29DDB78013DF5CB300FDDF15 /* ProductInventory */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB79013DF5CB300FDDF15 /* AppDelegate.rb */,
+				29DDB79213DF5CB300FDDF15 /* ProductInventory.xcdatamodeld */,
+				29DDB78913DF5CB300FDDF15 /* Resources */,
+				29DDB78D13DF5CB300FDDF15 /* Other Sources */,
+				29DDB78113DF5CB300FDDF15 /* Supporting Files */,
+				29DDB79D13DF5DF500FDDF15 /* Product.rb */,
+				29DDB79F13DF5E2000FDDF15 /* InventoryController.rb */,
+			);
+			path = ProductInventory;
+			sourceTree = "<group>";
+		};
+		29DDB78113DF5CB300FDDF15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB78213DF5CB300FDDF15 /* ProductInventory-Info.plist */,
+				29DDB78313DF5CB300FDDF15 /* InfoPlist.strings */,
+				29DDB78613DF5CB300FDDF15 /* ProductInventory-Prefix.pch */,
+				29DDB78713DF5CB300FDDF15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29DDB78913DF5CB300FDDF15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB78A13DF5CB300FDDF15 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29DDB78D13DF5CB300FDDF15 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29DDB78E13DF5CB300FDDF15 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		29DDB77F13DF5CB300FDDF15 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 29DDB79A13DF5CB300FDDF15 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		29DDB77613DF5CB300FDDF15 /* ProductInventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DDB79713DF5CB300FDDF15 /* Build configuration list for PBXNativeTarget "ProductInventory" */;
+			buildPhases = (
+				29DDB77313DF5CB300FDDF15 /* Sources */,
+				29DDB77413DF5CB300FDDF15 /* Frameworks */,
+				29DDB77513DF5CB300FDDF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductInventory;
+			productName = ProductInventory;
+			productReference = 29DDB77713DF5CB300FDDF15 /* ProductInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29DDB76E13DF5CB300FDDF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "STAR Healthcare Management GmbH";
+			};
+			buildConfigurationList = 29DDB77113DF5CB300FDDF15 /* Build configuration list for PBXProject "ProductInventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29DDB76C13DF5CB300FDDF15;
+			productRefGroup = 29DDB77813DF5CB300FDDF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29DDB77613DF5CB300FDDF15 /* ProductInventory */,
+				29DDB77F13DF5CB300FDDF15 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DDB77513DF5CB300FDDF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DDB78513DF5CB300FDDF15 /* InfoPlist.strings in Resources */,
+				29DDB78C13DF5CB300FDDF15 /* MainMenu.xib in Resources */,
+				29DDB78F13DF5CB300FDDF15 /* rb_main.rb in Resources */,
+				29DDB79113DF5CB300FDDF15 /* AppDelegate.rb in Resources */,
+				29DDB79E13DF5DF500FDDF15 /* Product.rb in Resources */,
+				29DDB7A013DF5E2000FDDF15 /* InventoryController.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29DDB77313DF5CB300FDDF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DDB78813DF5CB300FDDF15 /* main.m in Sources */,
+				29DDB79413DF5CB300FDDF15 /* ProductInventory.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29DDB78313DF5CB300FDDF15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DDB78413DF5CB300FDDF15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29DDB78A13DF5CB300FDDF15 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DDB78B13DF5CB300FDDF15 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29DDB79513DF5CB300FDDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29DDB79613DF5CB300FDDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29DDB79813DF5CB300FDDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductInventory/ProductInventory-Prefix.pch";
+				INFOPLIST_FILE = "ProductInventory/ProductInventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29DDB79913DF5CB300FDDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductInventory/ProductInventory-Prefix.pch";
+				INFOPLIST_FILE = "ProductInventory/ProductInventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29DDB79B13DF5CB300FDDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		29DDB79C13DF5CB300FDDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29DDB77113DF5CB300FDDF15 /* Build configuration list for PBXProject "ProductInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DDB79513DF5CB300FDDF15 /* Debug */,
+				29DDB79613DF5CB300FDDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DDB79713DF5CB300FDDF15 /* Build configuration list for PBXNativeTarget "ProductInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DDB79813DF5CB300FDDF15 /* Debug */,
+				29DDB79913DF5CB300FDDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29DDB79A13DF5CB300FDDF15 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DDB79B13DF5CB300FDDF15 /* Debug */,
+				29DDB79C13DF5CB300FDDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29DDB79213DF5CB300FDDF15 /* ProductInventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29DDB79313DF5CB300FDDF15 /* ProductInventory.xcdatamodel */,
+			);
+			currentVersion = 29DDB79313DF5CB300FDDF15 /* ProductInventory.xcdatamodel */;
+			path = ProductInventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29DDB76E13DF5CB300FDDF15 /* Project object */;
+}

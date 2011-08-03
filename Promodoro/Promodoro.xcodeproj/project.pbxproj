@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290C018213D6C2AD002C2914 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290C018113D6C2AD002C2914 /* Cocoa.framework */; };
+		290C018413D6C2AD002C2914 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290C018313D6C2AD002C2914 /* MacRuby.framework */; };
+		290C018B13D6C2AD002C2914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290C018913D6C2AD002C2914 /* InfoPlist.strings */; };
+		290C018E13D6C2AD002C2914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C018D13D6C2AD002C2914 /* main.m */; };
+		290C019213D6C2AD002C2914 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290C019013D6C2AD002C2914 /* MainMenu.xib */; };
+		290C019513D6C2AD002C2914 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 290C019413D6C2AD002C2914 /* rb_main.rb */; };
+		290C019713D6C2AD002C2914 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 290C019613D6C2AD002C2914 /* AppDelegate.rb */; };
+		290C019A13D6C2AD002C2914 /* Promodoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 290C019813D6C2AD002C2914 /* Promodoro.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290C017D13D6C2AD002C2914 /* Promodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Promodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290C018113D6C2AD002C2914 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		290C018313D6C2AD002C2914 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		290C018813D6C2AD002C2914 /* Promodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Promodoro-Info.plist"; sourceTree = "<group>"; };
+		290C018A13D6C2AD002C2914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		290C018C13D6C2AD002C2914 /* Promodoro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Promodoro-Prefix.pch"; sourceTree = "<group>"; };
+		290C018D13D6C2AD002C2914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		290C019113D6C2AD002C2914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		290C019413D6C2AD002C2914 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		290C019613D6C2AD002C2914 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		290C019913D6C2AD002C2914 /* Promodoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Promodoro.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290C017A13D6C2AD002C2914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290C018213D6C2AD002C2914 /* Cocoa.framework in Frameworks */,
+				290C018413D6C2AD002C2914 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290C017213D6C2AD002C2914 = {
+			isa = PBXGroup;
+			children = (
+				290C018613D6C2AD002C2914 /* Promodoro */,
+				290C018013D6C2AD002C2914 /* Frameworks */,
+				290C017E13D6C2AD002C2914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290C017E13D6C2AD002C2914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290C017D13D6C2AD002C2914 /* Promodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290C018013D6C2AD002C2914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				290C018113D6C2AD002C2914 /* Cocoa.framework */,
+				290C018313D6C2AD002C2914 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		290C018613D6C2AD002C2914 /* Promodoro */ = {
+			isa = PBXGroup;
+			children = (
+				290C019613D6C2AD002C2914 /* AppDelegate.rb */,
+				290C019813D6C2AD002C2914 /* Promodoro.xcdatamodeld */,
+				290C018F13D6C2AD002C2914 /* Resources */,
+				290C019313D6C2AD002C2914 /* Other Sources */,
+				290C018713D6C2AD002C2914 /* Supporting Files */,
+			);
+			path = Promodoro;
+			sourceTree = "<group>";
+		};
+		290C018713D6C2AD002C2914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				290C018813D6C2AD002C2914 /* Promodoro-Info.plist */,
+				290C018913D6C2AD002C2914 /* InfoPlist.strings */,
+				290C018C13D6C2AD002C2914 /* Promodoro-Prefix.pch */,
+				290C018D13D6C2AD002C2914 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		290C018F13D6C2AD002C2914 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				290C019013D6C2AD002C2914 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		290C019313D6C2AD002C2914 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				290C019413D6C2AD002C2914 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		290C018513D6C2AD002C2914 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 290C01A013D6C2AD002C2914 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		290C017C13D6C2AD002C2914 /* Promodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290C019D13D6C2AD002C2914 /* Build configuration list for PBXNativeTarget "Promodoro" */;
+			buildPhases = (
+				290C017913D6C2AD002C2914 /* Sources */,
+				290C017A13D6C2AD002C2914 /* Frameworks */,
+				290C017B13D6C2AD002C2914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Promodoro;
+			productName = Promodoro;
+			productReference = 290C017D13D6C2AD002C2914 /* Promodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290C017413D6C2AD002C2914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "STAR Healthcare Management GmbH";
+			};
+			buildConfigurationList = 290C017713D6C2AD002C2914 /* Build configuration list for PBXProject "Promodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 290C017213D6C2AD002C2914;
+			productRefGroup = 290C017E13D6C2AD002C2914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290C017C13D6C2AD002C2914 /* Promodoro */,
+				290C018513D6C2AD002C2914 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290C017B13D6C2AD002C2914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290C018B13D6C2AD002C2914 /* InfoPlist.strings in Resources */,
+				290C019213D6C2AD002C2914 /* MainMenu.xib in Resources */,
+				290C019513D6C2AD002C2914 /* rb_main.rb in Resources */,
+				290C019713D6C2AD002C2914 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290C017913D6C2AD002C2914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290C018E13D6C2AD002C2914 /* main.m in Sources */,
+				290C019A13D6C2AD002C2914 /* Promodoro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		290C018913D6C2AD002C2914 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290C018A13D6C2AD002C2914 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		290C019013D6C2AD002C2914 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290C019113D6C2AD002C2914 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290C019B13D6C2AD002C2914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		290C019C13D6C2AD002C2914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		290C019E13D6C2AD002C2914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Promodoro/Promodoro-Prefix.pch";
+				INFOPLIST_FILE = "Promodoro/Promodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		290C019F13D6C2AD002C2914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Promodoro/Promodoro-Prefix.pch";
+				INFOPLIST_FILE = "Promodoro/Promodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		290C01A113D6C2AD002C2914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		290C01A213D6C2AD002C2914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290C017713D6C2AD002C2914 /* Build configuration list for PBXProject "Promodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C019B13D6C2AD002C2914 /* Debug */,
+				290C019C13D6C2AD002C2914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290C019D13D6C2AD002C2914 /* Build configuration list for PBXNativeTarget "Promodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C019E13D6C2AD002C2914 /* Debug */,
+				290C019F13D6C2AD002C2914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		290C01A013D6C2AD002C2914 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C01A113D6C2AD002C2914 /* Debug */,
+				290C01A213D6C2AD002C2914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		290C019813D6C2AD002C2914 /* Promodoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				290C019913D6C2AD002C2914 /* Promodoro.xcdatamodel */,
+			);
+			currentVersion = 290C019913D6C2AD002C2914 /* Promodoro.xcdatamodel */;
+			path = Promodoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 290C017413D6C2AD002C2914 /* Project object */;
+}

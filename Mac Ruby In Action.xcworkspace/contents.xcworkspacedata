@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Delegates.rb">
+   </FileRef>
+   <FileRef
+      location = "group:HelloWorld/HelloWorld.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Test Bundle/Test Bundle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Promodoro/Promodoro.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MacRuby Browser/MacRuby Browser.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Todo/Todo.xcodeproj">
+   </FileRef>
+</Workspace>

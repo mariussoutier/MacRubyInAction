@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F3848C13D6200B00030A70 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3848B13D6200B00030A70 /* Cocoa.framework */; };
+		29F3848E13D6200B00030A70 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3848D13D6200B00030A70 /* MacRuby.framework */; };
+		29F3849513D6200B00030A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29F3849313D6200B00030A70 /* InfoPlist.strings */; };
+		29F3849813D6200B00030A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3849713D6200B00030A70 /* main.m */; };
+		29F3849C13D6200B00030A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F3849A13D6200B00030A70 /* MainMenu.xib */; };
+		29F3849F13D6200B00030A70 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29F3849E13D6200B00030A70 /* rb_main.rb */; };
+		29F384A113D6200B00030A70 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29F384A013D6200B00030A70 /* AppDelegate.rb */; };
+		29F384AB13D6202F00030A70 /* HelloWorldController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29F384AA13D6202F00030A70 /* HelloWorldController.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29F3848713D6200B00030A70 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F3848B13D6200B00030A70 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29F3848D13D6200B00030A70 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		29F3849213D6200B00030A70 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		29F3849413D6200B00030A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29F3849613D6200B00030A70 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		29F3849713D6200B00030A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29F3849B13D6200B00030A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29F3849E13D6200B00030A70 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		29F384A013D6200B00030A70 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		29F384AA13D6202F00030A70 /* HelloWorldController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = HelloWorldController.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F3848413D6200B00030A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F3848C13D6200B00030A70 /* Cocoa.framework in Frameworks */,
+				29F3848E13D6200B00030A70 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F3847C13D6200B00030A70 = {
+			isa = PBXGroup;
+			children = (
+				29F3849013D6200B00030A70 /* HelloWorld */,
+				29F3848A13D6200B00030A70 /* Frameworks */,
+				29F3848813D6200B00030A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F3848813D6200B00030A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F3848713D6200B00030A70 /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F3848A13D6200B00030A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29F3848B13D6200B00030A70 /* Cocoa.framework */,
+				29F3848D13D6200B00030A70 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29F3849013D6200B00030A70 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				29F384A013D6200B00030A70 /* AppDelegate.rb */,
+				29F3849913D6200B00030A70 /* Resources */,
+				29F3849D13D6200B00030A70 /* Other Sources */,
+				29F3849113D6200B00030A70 /* Supporting Files */,
+				29F384AA13D6202F00030A70 /* HelloWorldController.rb */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		29F3849113D6200B00030A70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29F3849213D6200B00030A70 /* HelloWorld-Info.plist */,
+				29F3849313D6200B00030A70 /* InfoPlist.strings */,
+				29F3849613D6200B00030A70 /* HelloWorld-Prefix.pch */,
+				29F3849713D6200B00030A70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29F3849913D6200B00030A70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29F3849A13D6200B00030A70 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29F3849D13D6200B00030A70 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29F3849E13D6200B00030A70 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		29F3848F13D6200B00030A70 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 29F384A713D6200B00030A70 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		29F3848613D6200B00030A70 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F384A413D6200B00030A70 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				29F3848313D6200B00030A70 /* Sources */,
+				29F3848413D6200B00030A70 /* Frameworks */,
+				29F3848513D6200B00030A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 29F3848713D6200B00030A70 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F3847E13D6200B00030A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "STAR Healthcare Management GmbH";
+			};
+			buildConfigurationList = 29F3848113D6200B00030A70 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29F3847C13D6200B00030A70;
+			productRefGroup = 29F3848813D6200B00030A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F3848613D6200B00030A70 /* HelloWorld */,
+				29F3848F13D6200B00030A70 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F3848513D6200B00030A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F3849513D6200B00030A70 /* InfoPlist.strings in Resources */,
+				29F3849C13D6200B00030A70 /* MainMenu.xib in Resources */,
+				29F3849F13D6200B00030A70 /* rb_main.rb in Resources */,
+				29F384A113D6200B00030A70 /* AppDelegate.rb in Resources */,
+				29F384AB13D6202F00030A70 /* HelloWorldController.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F3848313D6200B00030A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F3849813D6200B00030A70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29F3849313D6200B00030A70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F3849413D6200B00030A70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29F3849A13D6200B00030A70 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F3849B13D6200B00030A70 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F384A213D6200B00030A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29F384A313D6200B00030A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29F384A513D6200B00030A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29F384A613D6200B00030A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29F384A813D6200B00030A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		29F384A913D6200B00030A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F3848113D6200B00030A70 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F384A213D6200B00030A70 /* Debug */,
+				29F384A313D6200B00030A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F384A413D6200B00030A70 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F384A513D6200B00030A70 /* Debug */,
+				29F384A613D6200B00030A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F384A713D6200B00030A70 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F384A813D6200B00030A70 /* Debug */,
+				29F384A913D6200B00030A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F3847E13D6200B00030A70 /* Project object */;
+}

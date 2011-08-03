@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Promodoro' target in the 'Promodoro' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
