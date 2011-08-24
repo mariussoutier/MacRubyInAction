@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299CE03214038F95004F4D7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299CE03114038F95004F4D7F /* Cocoa.framework */; };
+		299CE03414038F95004F4D7F /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299CE03314038F95004F4D7F /* MacRuby.framework */; };
+		299CE03B14038F95004F4D7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 299CE03914038F95004F4D7F /* InfoPlist.strings */; };
+		299CE03E14038F95004F4D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299CE03D14038F95004F4D7F /* main.m */; };
+		299CE04214038F95004F4D7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 299CE04014038F95004F4D7F /* MainMenu.xib */; };
+		299CE04514038F95004F4D7F /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 299CE04414038F95004F4D7F /* rb_main.rb */; };
+		299CE04714038F95004F4D7F /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 299CE04614038F95004F4D7F /* AppDelegate.rb */; };
+		299CE04A14038F95004F4D7F /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 299CE04814038F95004F4D7F /* CoreDataExample.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		299CE02D14038F95004F4D7F /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299CE03114038F95004F4D7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		299CE03314038F95004F4D7F /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		299CE03814038F95004F4D7F /* CoreDataExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataExample-Info.plist"; sourceTree = "<group>"; };
+		299CE03A14038F95004F4D7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		299CE03C14038F95004F4D7F /* CoreDataExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataExample-Prefix.pch"; sourceTree = "<group>"; };
+		299CE03D14038F95004F4D7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		299CE04114038F95004F4D7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		299CE04414038F95004F4D7F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		299CE04614038F95004F4D7F /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		299CE04914038F95004F4D7F /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299CE02A14038F95004F4D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CE03214038F95004F4D7F /* Cocoa.framework in Frameworks */,
+				299CE03414038F95004F4D7F /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299CE02214038F95004F4D7F = {
+			isa = PBXGroup;
+			children = (
+				299CE03614038F95004F4D7F /* CoreDataExample */,
+				299CE03014038F95004F4D7F /* Frameworks */,
+				299CE02E14038F95004F4D7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299CE02E14038F95004F4D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299CE02D14038F95004F4D7F /* CoreDataExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299CE03014038F95004F4D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299CE03114038F95004F4D7F /* Cocoa.framework */,
+				299CE03314038F95004F4D7F /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		299CE03614038F95004F4D7F /* CoreDataExample */ = {
+			isa = PBXGroup;
+			children = (
+				299CE04614038F95004F4D7F /* AppDelegate.rb */,
+				299CE04814038F95004F4D7F /* CoreDataExample.xcdatamodeld */,
+				299CE03F14038F95004F4D7F /* Resources */,
+				299CE04314038F95004F4D7F /* Other Sources */,
+				299CE03714038F95004F4D7F /* Supporting Files */,
+			);
+			path = CoreDataExample;
+			sourceTree = "<group>";
+		};
+		299CE03714038F95004F4D7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				299CE03814038F95004F4D7F /* CoreDataExample-Info.plist */,
+				299CE03914038F95004F4D7F /* InfoPlist.strings */,
+				299CE03C14038F95004F4D7F /* CoreDataExample-Prefix.pch */,
+				299CE03D14038F95004F4D7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		299CE03F14038F95004F4D7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				299CE04014038F95004F4D7F /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		299CE04314038F95004F4D7F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				299CE04414038F95004F4D7F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		299CE03514038F95004F4D7F /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 299CE05014038F95004F4D7F /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		299CE02C14038F95004F4D7F /* CoreDataExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299CE04D14038F95004F4D7F /* Build configuration list for PBXNativeTarget "CoreDataExample" */;
+			buildPhases = (
+				299CE02914038F95004F4D7F /* Sources */,
+				299CE02A14038F95004F4D7F /* Frameworks */,
+				299CE02B14038F95004F4D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataExample;
+			productName = CoreDataExample;
+			productReference = 299CE02D14038F95004F4D7F /* CoreDataExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299CE02414038F95004F4D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "STAR Healthcare Management GmbH";
+			};
+			buildConfigurationList = 299CE02714038F95004F4D7F /* Build configuration list for PBXProject "CoreDataExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 299CE02214038F95004F4D7F;
+			productRefGroup = 299CE02E14038F95004F4D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299CE02C14038F95004F4D7F /* CoreDataExample */,
+				299CE03514038F95004F4D7F /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299CE02B14038F95004F4D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CE03B14038F95004F4D7F /* InfoPlist.strings in Resources */,
+				299CE04214038F95004F4D7F /* MainMenu.xib in Resources */,
+				299CE04514038F95004F4D7F /* rb_main.rb in Resources */,
+				299CE04714038F95004F4D7F /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299CE02914038F95004F4D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CE03E14038F95004F4D7F /* main.m in Sources */,
+				299CE04A14038F95004F4D7F /* CoreDataExample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		299CE03914038F95004F4D7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CE03A14038F95004F4D7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		299CE04014038F95004F4D7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CE04114038F95004F4D7F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299CE04B14038F95004F4D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		299CE04C14038F95004F4D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		299CE04E14038F95004F4D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataExample/CoreDataExample-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataExample/CoreDataExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		299CE04F14038F95004F4D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataExample/CoreDataExample-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataExample/CoreDataExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		299CE05114038F95004F4D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		299CE05214038F95004F4D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299CE02714038F95004F4D7F /* Build configuration list for PBXProject "CoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CE04B14038F95004F4D7F /* Debug */,
+				299CE04C14038F95004F4D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299CE04D14038F95004F4D7F /* Build configuration list for PBXNativeTarget "CoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CE04E14038F95004F4D7F /* Debug */,
+				299CE04F14038F95004F4D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		299CE05014038F95004F4D7F /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CE05114038F95004F4D7F /* Debug */,
+				299CE05214038F95004F4D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		299CE04814038F95004F4D7F /* CoreDataExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				299CE04914038F95004F4D7F /* CoreDataExample.xcdatamodel */,
+			);
+			currentVersion = 299CE04914038F95004F4D7F /* CoreDataExample.xcdatamodel */;
+			path = CoreDataExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 299CE02414038F95004F4D7F /* Project object */;
+}
