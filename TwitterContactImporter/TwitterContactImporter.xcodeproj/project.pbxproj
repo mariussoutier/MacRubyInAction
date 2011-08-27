@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298806D61409459A00132E82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298806D51409459A00132E82 /* Cocoa.framework */; };
+		298806D81409459A00132E82 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298806D71409459A00132E82 /* MacRuby.framework */; };
+		298806DF1409459A00132E82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 298806DD1409459A00132E82 /* InfoPlist.strings */; };
+		298806E21409459A00132E82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 298806E11409459A00132E82 /* main.m */; };
+		298806E61409459A00132E82 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298806E41409459A00132E82 /* MainMenu.xib */; };
+		298806E91409459A00132E82 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 298806E81409459A00132E82 /* rb_main.rb */; };
+		298806EB1409459A00132E82 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 298806EA1409459A00132E82 /* AppDelegate.rb */; };
+		298806F51409464B00132E82 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 298806F41409464B00132E82 /* twitter.png */; };
+		29B26C081409482000CD4C99 /* ab_address_book.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29B26C041409482000CD4C99 /* ab_address_book.rb */; };
+		29B26C091409482000CD4C99 /* ab_extra.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29B26C051409482000CD4C99 /* ab_extra.rb */; };
+		29B26C0A1409482000CD4C99 /* ab_group.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29B26C061409482000CD4C99 /* ab_group.rb */; };
+		29B26C0B1409482000CD4C99 /* ab_record.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29B26C071409482000CD4C99 /* ab_record.rb */; };
+		29B26C0D1409483C00CD4C99 /* core_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 29B26C0C1409483C00CD4C99 /* core_ext.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		298806D11409459A00132E82 /* TwitterContactImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterContactImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298806D51409459A00132E82 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		298806D71409459A00132E82 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		298806DC1409459A00132E82 /* TwitterContactImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterContactImporter-Info.plist"; sourceTree = "<group>"; };
+		298806DE1409459A00132E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		298806E01409459A00132E82 /* TwitterContactImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterContactImporter-Prefix.pch"; sourceTree = "<group>"; };
+		298806E11409459A00132E82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		298806E51409459A00132E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		298806E81409459A00132E82 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		298806EA1409459A00132E82 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		298806F41409464B00132E82 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		29B26C041409482000CD4C99 /* ab_address_book.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_address_book.rb; sourceTree = "<group>"; };
+		29B26C051409482000CD4C99 /* ab_extra.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_extra.rb; sourceTree = "<group>"; };
+		29B26C061409482000CD4C99 /* ab_group.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_group.rb; sourceTree = "<group>"; };
+		29B26C071409482000CD4C99 /* ab_record.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_record.rb; sourceTree = "<group>"; };
+		29B26C0C1409483C00CD4C99 /* core_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_ext.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298806CE1409459A00132E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298806D61409459A00132E82 /* Cocoa.framework in Frameworks */,
+				298806D81409459A00132E82 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298806C61409459A00132E82 = {
+			isa = PBXGroup;
+			children = (
+				298806DA1409459A00132E82 /* TwitterContactImporter */,
+				298806D41409459A00132E82 /* Frameworks */,
+				298806D21409459A00132E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298806D21409459A00132E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298806D11409459A00132E82 /* TwitterContactImporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		298806D41409459A00132E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298806D51409459A00132E82 /* Cocoa.framework */,
+				298806D71409459A00132E82 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		298806DA1409459A00132E82 /* TwitterContactImporter */ = {
+			isa = PBXGroup;
+			children = (
+				29B26C02140947A600CD4C99 /* Wrappers */,
+				298806EA1409459A00132E82 /* AppDelegate.rb */,
+				298806E31409459A00132E82 /* Resources */,
+				298806E71409459A00132E82 /* Other Sources */,
+				298806DB1409459A00132E82 /* Supporting Files */,
+			);
+			path = TwitterContactImporter;
+			sourceTree = "<group>";
+		};
+		298806DB1409459A00132E82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298806DC1409459A00132E82 /* TwitterContactImporter-Info.plist */,
+				298806DD1409459A00132E82 /* InfoPlist.strings */,
+				298806E01409459A00132E82 /* TwitterContactImporter-Prefix.pch */,
+				298806E11409459A00132E82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298806E31409459A00132E82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				298806F41409464B00132E82 /* twitter.png */,
+				298806E41409459A00132E82 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		298806E71409459A00132E82 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				298806E81409459A00132E82 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B26C02140947A600CD4C99 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				29B26C041409482000CD4C99 /* ab_address_book.rb */,
+				29B26C051409482000CD4C99 /* ab_extra.rb */,
+				29B26C061409482000CD4C99 /* ab_group.rb */,
+				29B26C071409482000CD4C99 /* ab_record.rb */,
+				29B26C0C1409483C00CD4C99 /* core_ext.rb */,
+			);
+			name = Wrappers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		298806D91409459A00132E82 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 298806F11409459A00132E82 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		298806D01409459A00132E82 /* TwitterContactImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298806EE1409459A00132E82 /* Build configuration list for PBXNativeTarget "TwitterContactImporter" */;
+			buildPhases = (
+				298806CD1409459A00132E82 /* Sources */,
+				298806CE1409459A00132E82 /* Frameworks */,
+				298806CF1409459A00132E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterContactImporter;
+			productName = TwitterContactImporter;
+			productReference = 298806D11409459A00132E82 /* TwitterContactImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298806C81409459A00132E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "STAR Healthcare Management GmbH";
+			};
+			buildConfigurationList = 298806CB1409459A00132E82 /* Build configuration list for PBXProject "TwitterContactImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 298806C61409459A00132E82;
+			productRefGroup = 298806D21409459A00132E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298806D01409459A00132E82 /* TwitterContactImporter */,
+				298806D91409459A00132E82 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298806CF1409459A00132E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298806DF1409459A00132E82 /* InfoPlist.strings in Resources */,
+				298806E61409459A00132E82 /* MainMenu.xib in Resources */,
+				298806E91409459A00132E82 /* rb_main.rb in Resources */,
+				298806EB1409459A00132E82 /* AppDelegate.rb in Resources */,
+				298806F51409464B00132E82 /* twitter.png in Resources */,
+				29B26C081409482000CD4C99 /* ab_address_book.rb in Resources */,
+				29B26C091409482000CD4C99 /* ab_extra.rb in Resources */,
+				29B26C0A1409482000CD4C99 /* ab_group.rb in Resources */,
+				29B26C0B1409482000CD4C99 /* ab_record.rb in Resources */,
+				29B26C0D1409483C00CD4C99 /* core_ext.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298806CD1409459A00132E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298806E21409459A00132E82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		298806DD1409459A00132E82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298806DE1409459A00132E82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		298806E41409459A00132E82 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298806E51409459A00132E82 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		298806EC1409459A00132E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		298806ED1409459A00132E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		298806EF1409459A00132E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterContactImporter/TwitterContactImporter-Prefix.pch";
+				INFOPLIST_FILE = "TwitterContactImporter/TwitterContactImporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		298806F01409459A00132E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterContactImporter/TwitterContactImporter-Prefix.pch";
+				INFOPLIST_FILE = "TwitterContactImporter/TwitterContactImporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		298806F21409459A00132E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		298806F31409459A00132E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298806CB1409459A00132E82 /* Build configuration list for PBXProject "TwitterContactImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298806EC1409459A00132E82 /* Debug */,
+				298806ED1409459A00132E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298806EE1409459A00132E82 /* Build configuration list for PBXNativeTarget "TwitterContactImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298806EF1409459A00132E82 /* Debug */,
+				298806F01409459A00132E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298806F11409459A00132E82 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298806F21409459A00132E82 /* Debug */,
+				298806F31409459A00132E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 298806C81409459A00132E82 /* Project object */;
+}
