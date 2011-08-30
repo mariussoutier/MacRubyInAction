@@ -2,7 +2,7 @@
 class BrowserController
   attr_accessor :window, :url_field, :web_view, :indicator
   
-  def awakeFromNb
+  def awakeFromNib
     @web_view.frameLoadDelegate = self
   end
   
@@ -18,7 +18,7 @@ class BrowserController
   end
   
   def webView(sender, didStartProvisionalLoadForFrame:frame)
-    @indicator.starAnimation(self)
+    @indicator.startAnimation(self)
     if frame == sender.mainFrame
       @url_field.stringValue = frame.provisionalDataSource.request.URL.absoluteString
     end
